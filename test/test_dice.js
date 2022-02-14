@@ -303,7 +303,7 @@ contract('DiceMarket', function(accounts) {
 
   });
 
-  it('9. DiceMarket Withdraw - Test that seller can withdraw balance from DiceMarket', async () => {
+  it('9. DiceMarket Withdraw - Test that can withdraw balance from DiceMarket', async () => {
     let w1 = await diceMarketInstance.withDraw();
     let w2 = await diceMarketInstance.withDraw();
 

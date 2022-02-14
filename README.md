@@ -7,5 +7,6 @@
 
 ## Run steps
 1. truffle compile
-2. truffle migration
-3. truffle test
+2. start ganache, quickstart
+3. truffle migration
+4. truffle test
